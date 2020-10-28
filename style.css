@@ -253,6 +253,7 @@ button i {
     background-color: white;
     margin-top: 50px;
     position: relative; 
+    text-align: center;
 }
 .education-boxs {
     width: 175px;
@@ -262,7 +263,6 @@ button i {
     display: inline-block;
     position: inherit;
     top: -100px;
-    left: 41%;
 }
 .education-box {
     width: 145px;
@@ -302,17 +302,14 @@ button i {
 }
 @media screen and (max-width: 1199px){
     .education-boxs {
-        left: 40%;
     }
 }
 @media screen and (max-width: 991px){
     .education-boxs {
-        left: 36%;
     }
 }
 @media screen and (max-width: 767px){
     .education-boxs {
-        left: 30%;
     }
     .box {
         text-align: center;
@@ -324,6 +321,5 @@ button i {
 }
 @media screen and (max-width: 471px){
     .education-boxs {
-        left: 27%;
     }
 }
