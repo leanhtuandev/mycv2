@@ -311,6 +311,10 @@ button i {
 @media screen and (max-width: 767px){
     .education-boxs {
     }
+    .skill-box {
+        min-height: 250px;
+
+    }
     .box {
         text-align: center;
     }
