@@ -22,8 +22,10 @@ body {
     }
 }
 
+
+
 #banner {
-    background-image: url('img/header-bg.jpg');
+    background-image: url('img/background.jpg');
     height: 969px;
     width: 100%;
     background-position: center;
@@ -32,7 +34,7 @@ body {
     background-attachment: fixed;
 }
 .transparent-content {
-    background-color: rgba(26, 188, 156, 0.8);
+    background-color: rgb(4 4 4 / 40%);
     height: 969px;
     width: 100%;
 }
@@ -300,6 +302,16 @@ button i {
     font-weight: 100;
     color: #808080;
 }
+
+.designation-box:hover {
+    cursor: pointer;
+}
+
+.education-box:hover {
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 1199px){
     .education-boxs {
     }
@@ -313,7 +325,6 @@ button i {
     }
     .skill-box {
         min-height: 250px;
-
     }
     .box {
         text-align: center;
@@ -322,6 +333,15 @@ button i {
         text-align: center;
         padding-bottom: 60px;
     }
+}
+@media screen and (max-width: 522px) {
+    .site-name h1 {
+        font-size: 42px;
+    }
+    .site-slogan h3 {
+        font-size: 32px;
+    }
+
 }
 @media screen and (max-width: 471px){
     .education-boxs {
