@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 ul {
     list-style: none;
 }
@@ -22,10 +23,35 @@ body {
     }
 }
 
+#btn-scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgba(46, 44, 44,0.6);
+    width: 48px;
+    height: 48px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    z-index: 9999;
+    
+}
 
+#btn-scroll:hover {
+    cursor: pointer;
+    background-color: black;
+
+}
+
+#btn-scroll i {
+    font-size: 36px;
+    color: white;
+    
+}
 
 #banner {
-    background-image: url('img/background.jpg');
+    background-image: url('../img/background.jpg');
     height: 969px;
     width: 100%;
     background-position: center;
